@@ -43,7 +43,7 @@ li {
   position: relative;
 }
 
-li::after {
+.n-list > li::after {
   content: "";
   position: absolute;
   left: 0;

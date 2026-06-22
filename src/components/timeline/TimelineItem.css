@@ -27,6 +27,12 @@
   width: 400px;
   max-width: 100%;
   text-align: right;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.timeline-item-content:not(.circle):hover {
+  transform: scale(1.05);
 }
 
 .timeline-item-content::after {
@@ -59,10 +65,14 @@
 }
 
 .timeline-item-content p {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 15px 0;
-  max-width: 250px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 12px 0;
+  max-width: none;
+
+  @media (max-width: 767px) {
+    font-size: 12px;
+  }
 }
 
 .timeline-item-content a {
@@ -99,6 +109,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+
   .timeline-item-content,
   .timeline-item:nth-child(odd) .timeline-item-content {
     padding: 15px 10px;

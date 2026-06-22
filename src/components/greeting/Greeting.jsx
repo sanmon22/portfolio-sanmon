@@ -18,7 +18,7 @@ const Greeting = () => {
               repeat={Infinity}
             />
             <h2>Santiago</h2>
-            <h6>Desarrollador web y Analista de Calidad</h6>
+            <h6>Desarrollador web y <br /> Analista de Calidad</h6>
           </div>
           <motion.img
             initial={{ opacity: 0 }}

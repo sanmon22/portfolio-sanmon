@@ -21,15 +21,3 @@ const TimelineItem = ({ data }) => (
 );
 
 export default TimelineItem
-
-/**
- * initial structre from JSON:
- * {
-    "text": "Lorem ipsum",
-    "date": "Febrero 2999",
-    "link": {
-      "url": "",
-      "text": "Leer más"
-    }
-  }
- */

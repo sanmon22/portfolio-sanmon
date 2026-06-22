@@ -20,6 +20,11 @@
   position: relative;
 }
 
+.g-titles h6 {
+  position: relative;
+  font-size: 32px;
+}
+
 .g-titles > div {
   flex: 7;
 }

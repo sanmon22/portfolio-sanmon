@@ -49,10 +49,10 @@ const About = () => {
           <a href="https://www.linkedin.com/in/sanmon12/" target="_blank">
             <FaLinkedin title="LinkedIn" size={30} />
           </a>
-          <a href="https://github.com/Santiago397" target="_blank">
+          <a href="https://github.com/sanmon22" target="_blank">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/gl_santiago_monrroy_cv.pdf" target="_blank">
+          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank">
             <button className="btn-cv">
               CV
               <FaDownload />
