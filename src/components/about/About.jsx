@@ -15,8 +15,8 @@ const About = () => {
 
   const copyText = async () => {
     await navigator.clipboard.writeText('santilopez397@gmail.com')
-    .then(() => toast.success("Se ha copiado con éxito!"))
-    .catch(() => toast.error("No se ha logrado copiar"))
+      .then(() => toast.success("Se ha copiado con éxito!"))
+      .catch(() => toast.error("No se ha logrado copiar"))
   }
 
   return (
@@ -34,18 +34,16 @@ const About = () => {
       >
         <h5 className="title">Sobre mí</h5>
         <p>
-          Desarrollador web con <strong>un año</strong> de experiencia en el sector,
-          apasionado por la tecnología y las innovaciones digitales <br />
+          Analista QA Senior con más de <strong>3 años</strong> de experiencia y mentalidad de desarrollador. Especialista en estrategias de
+          calidad integral a lo largo de todo el ciclo de vida de desarrollo de software (SDLC), con enfoque en liderazgo
+          técnico y optimización de procesos. Apasionado por la <strong>
+            mentoría de equipos, el intercambio de conocimientos y la
+            retroalimentación cualitativa
+          </strong> para cerrar la brecha entre diseño e ingeniería.
         </p>
         <p>
-          Durante este tiempo, he demostrado habilidades en{" "}
-          <strong>comunicación asertiva, trabajo en equipo y flexibilidad </strong> 
-          para adaptarme a los retos diarios. 
-        </p>
-        <p>
-          Me entusiasma colaborar en equipos dinámicos,
-          aplicar mis conocimientos técnicos y dar rienda suelta a mi
-          creatividad para lograr resultados excepcionales.
+          Estoy convencido de que la mejor
+          calidad viene de un equipo que aprende y se adapta juntos
         </p>
         <div className="flexStart a-social">
           <a href="https://www.linkedin.com/in/sanmon12/" target="_blank">

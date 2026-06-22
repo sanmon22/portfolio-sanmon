@@ -1,12 +1,35 @@
 [
   {
-    "company": "LaLicorera.com",
-    "role": "Desarrollador web junior",
-    "start": "Julio 2022",
-    "end": "Julio 2023",
+    "company": "Electronic Arts",
+    "role": "Analista de Calidad (Quality Analyst)",
+    "start": "Nov 2024",
+    "end": "Mayo 2026",
     "duties": [
-      "Mantenimiento y actualización en la página LaLicorera.com",
-      "Optimización de código en aplicativo de administración de inventario"
+      "Liderazgo y Coordinación de Equipos: Colaboré en la asignación de casos de prueba y la distribución de tareas, alineando estratégicamente las responsabilidades con las fortalezas técnicas del equipo para optimizar la cobertura de pruebas.",
+      "Centralización de Procesos: Encabecé la creación de una base de conocimientos centralizada, incluyendo tutoriales en video y documentación técnica, mejorando la eficiencia en la incorporación de nuevos miembros (onboarding) y estandarizando los flujos de trabajo internos.",
+      "Mentoría Técnica: Diseñar y ejecutar programas de capacitación a colegas sobre reporte de errores (bugs), documentación de producto y configuración de entornos, fomentando una cultura de aprendizaje continuo.",
+      "Triage Estratégico: Gestionar el proceso inicial de Triage en JIRA, enfocándose en el aislamiento de defectos y el análisis histórico para facilitar la toma de decisiones eficiente por parte de Líderes y Productores.",
+      "Gestión de Entornos: Apoyo la orquestación técnica de pruebas a gran escala, gestionando DevKits y despliegues de red local (LAN) para replicar entornos de producción.",
+      "Operaciones en Vivo (Live Ops): Valido la estabilidad del servidor, microtransacciones y estados del software post-despliegue bajo escenarios de alta presión."
+    ],
+    "tech": [
+      "JIRA",
+      "ISTQB",
+      "Playwright",
+      "SCRUM"
+    ]
+  },
+  {
+    "company": "LaLicorera.com",
+    "role": "Desarrollador Web",
+    "start": "Ago 2022",
+    "end": "Ago 2023",
+    "duties": [
+      "Desarrollo Backend y Diseño de APIs: Desarrollé y validé endpoints RESTful utilizando PHP (Laravel) para asegurar una comunicación eficiente entre el frontend y el backend.",
+      "Pruebas Unitarias: Realicé pruebas unitarias para endpoints de API, verificando la integridad de los datos, esquemas de respuesta y tiempos de ejecución para garantizar la estabilidad del sistema.",
+      "Documentación de APIs: Documenté y probé endpoints en Postman, centralizando la información técnica y facilitando el seguimiento del progreso del proyecto.",
+      "Herramientas Internas e UI/UX: Ajusté el diseño y la funcionalidad tanto de la plataforma principal de comercio electrónico como de las herramientas internas, aplicando principios de UI/UX para optimizar las operaciones del negocio.",
+      "Transición de Stack Tecnológico: Demostré flexibilidad técnica al realizar con éxito la transición de React a Vue.js y PHP, manteniendo el ritmo de entrega del equipo."
     ],
     "tech": [
       "VueJS",
