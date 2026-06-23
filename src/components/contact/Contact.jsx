@@ -77,7 +77,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/sanmon12/" target="_blank">
               <FaLinkedin title="LinkedIn" size={30} />
             </a>
-            <a href="https://github.com/Santiago397" target="_blank">
+            <a href="https://github.com/sanmon22" target="_blank">
               <FaGithub title="Github" size={30} />
             </a>
           </div>
