@@ -1,6 +1,6 @@
 import "./Projects.css"
-import projects from '../../utils/projects.json'
-import Chips from '../chips/Chips'
+import projects from '@/data/projects.json'
+import { Chips } from '@/components/ui'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Projects = () => {

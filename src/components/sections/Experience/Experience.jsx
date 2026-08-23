@@ -1,8 +1,7 @@
 import './Experience.css'
-import experiences from '../../utils/experiences.json'
+import experiences from '@/data/experiences.json'
 import { motion } from "framer-motion";
-import Chips from '../chips/Chips'
-import Timeline from '../timeline/Timeline';
+import { Chips, Timeline } from '@/components/ui'
 
 const Experience = () => {
   return (

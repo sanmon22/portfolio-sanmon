@@ -41,7 +41,6 @@ const Navbar = () => {
         <ul className={`n-list ${isOpen && "mobile"}`}>
           <li onClick={() => setIsOpen(!isOpen)}><a href="#about">Sobre mí</a></li>
           <li onClick={() => setIsOpen(!isOpen)}><a href="#experience">Experiencia</a></li>
-          <li onClick={() => setIsOpen(!isOpen)}><a href="#projects">Proyectos</a></li>
           <li onClick={() => setIsOpen(!isOpen)}><a href="#contact">Contacto</a></li>
         </ul>
       </nav>

@@ -1,5 +1,5 @@
 import TimelineItem from './TimelineItem'
-import timelineData from '../../utils/timeline.json'
+import timelineData from '@/data/timeline.json'
 import './Timeline.css'
 
 
