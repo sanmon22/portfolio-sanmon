@@ -4,8 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  scroll-margin-top: 5rem;
 }
 
 .e-container {
