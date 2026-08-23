@@ -1,5 +1,26 @@
 [
   {
+    "company": "Iniciativas Técnicas y Proyectos de Ingeniería de IA (Independiente)",
+    "role": "QA Automation & AI Engineer",
+    "start": "2026",
+    "end": "Actualmente",
+    "duties": [
+      "Arquitectura de Automatización de Pruebas E2E: Diseño e implementación de suites de automatización escalables utilizando Playwright con TypeScript bajo el patrón Page Object Model (POM), estructurando además flujos de validación de endpoints REST y payloads con Postman.",
+      "Entorno de LLM Local y Personalización de Modelfiles: Configuración y despliegue de entornos locales de IA mediante Ollama y OpenCode, personalizando comportamiento de modelos, ventanas de contexto y parámetros deterministas a través de Modelfiles para entornos de testing seguros y offline.",
+      "Operaciones de QA Asistidas por IA y Workflows: Aplicación de Agent Skills, protocolos MCP (Model Context Protocol) y marcos de Prompt Engineering estructurados (RTF / CREATE) para la generación automatizada de casos de prueba de borde, mocks/payloads JSON sintéticos y asistencia en revisión de código."
+    ],
+    "tech": [
+      "Playwright",
+      "TypeScript",
+      "Ollama",
+      "OpenCode",
+      "MCP",
+      "n8n",
+      "Prompt Engineering (RTF/CREATE)",
+      "Page Object Model (POM)"
+    ]
+  },
+  {
     "company": "Electronic Arts",
     "role": "Quality Analyst",
     "start": "Nov 2024",
@@ -40,27 +61,6 @@
       "REST APIs",
       "Clean Architecture",
       "SQL"
-    ]
-  },
-  {
-    "company": "Iniciativas Técnicas y Proyectos de Ingeniería de IA (Independiente)",
-    "role": "QA Automation & AI Engineer",
-    "start": "2026",
-    "end": "Actualmente",
-    "duties": [
-      "Arquitectura de Automatización de Pruebas E2E: Diseño e implementación de suites de automatización escalables utilizando Playwright con TypeScript bajo el patrón Page Object Model (POM), estructurando además flujos de validación de endpoints REST y payloads con Postman.",
-      "Entorno de LLM Local y Personalización de Modelfiles: Configuración y despliegue de entornos locales de IA mediante Ollama y OpenCode, personalizando comportamiento de modelos, ventanas de contexto y parámetros deterministas a través de Modelfiles para entornos de testing seguros y offline.",
-      "Operaciones de QA Asistidas por IA y Workflows: Aplicación de Agent Skills, protocolos MCP (Model Context Protocol) y marcos de Prompt Engineering estructurados (RTF / CREATE) para la generación automatizada de casos de prueba de borde, mocks/payloads JSON sintéticos y asistencia en revisión de código."
-    ],
-    "tech": [
-      "Playwright",
-      "TypeScript",
-      "Ollama",
-      "OpenCode",
-      "MCP",
-      "n8n",
-      "Prompt Engineering (RTF/CREATE)",
-      "Page Object Model (POM)"
     ]
   },
   {
