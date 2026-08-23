@@ -30,12 +30,12 @@ const About = () => {
       >
         <h5 className="title">Sobre mí</h5>
         <p>
-          Analista QA Senior con más de <strong>3 años</strong> de experiencia y mentalidad de desarrollador. Especialista en estrategias de
-          calidad integral a lo largo de todo el ciclo de vida de desarrollo de software (SDLC), con enfoque en liderazgo
+          Analista QA Técnico con más de <strong>3 años</strong> de experiencia y mentalidad de desarrollador. Me especializo en
+          estrategias de calidad integrales a lo largo de todo el ciclo de vida del desarrollo de software, con enfoque en soporte
           técnico y optimización de procesos. Apasionado por la <strong>
-            mentoría de equipos, el intercambio de conocimientos y la
-            retroalimentación cualitativa
-          </strong> para cerrar la brecha entre diseño e ingeniería.
+            mentoría de equipos, el intercambio de conocimientos y la entrega
+            de retroalimentación cualitativa
+          </strong> para cerrar la brecha entre el diseño y la ingeniería, bajo la convicción de que la mejor calidad proviene de un equipo que aprende y se adapta junto
         </p>
         <p>
           Estoy convencido de que la mejor
@@ -48,7 +48,7 @@ const About = () => {
           <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Santiago">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
+          <a href="/cv_es_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
             <button className="btn-cv" aria-label="Descargar CV">
               CV
               <FaDownload />

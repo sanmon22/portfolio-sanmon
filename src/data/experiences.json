@@ -1,41 +1,66 @@
 [
   {
     "company": "Electronic Arts",
-    "role": "Analista de Calidad (Quality Analyst)",
+    "role": "Quality Analyst",
     "start": "Nov 2024",
     "end": "Mayo 2026",
     "duties": [
-      "Liderazgo y Coordinación de Equipos: Colaboré en la asignación de casos de prueba y la distribución de tareas, alineando estratégicamente las responsabilidades con las fortalezas técnicas del equipo para optimizar la cobertura de pruebas.",
-      "Centralización de Procesos: Encabecé la creación de una base de conocimientos centralizada, incluyendo tutoriales en video y documentación técnica, mejorando la eficiencia en la incorporación de nuevos miembros (onboarding) y estandarizando los flujos de trabajo internos.",
-      "Mentoría Técnica: Diseñar y ejecutar programas de capacitación a colegas sobre reporte de errores (bugs), documentación de producto y configuración de entornos, fomentando una cultura de aprendizaje continuo.",
-      "Triage Estratégico: Gestionar el proceso inicial de Triage en JIRA, enfocándose en el aislamiento de defectos y el análisis histórico para facilitar la toma de decisiones eficiente por parte de Líderes y Productores.",
-      "Gestión de Entornos: Apoyo la orquestación técnica de pruebas a gran escala, gestionando DevKits y despliegues de red local (LAN) para replicar entornos de producción.",
-      "Operaciones en Vivo (Live Ops): Valido la estabilidad del servidor, microtransacciones y estados del software post-despliegue bajo escenarios de alta presión."
+      "Optimización de Procesos e Impacto en Onboarding: Participé activamente en la creación de una base de conocimientos centralizada, documentación técnica y videotutoriales que apoyaron directamente la reducción de los ciclos de inducción y capacitación del equipo de 3 meses a solo 2 semanas, actuando como punto de contacto técnico.",
+      "Reportes de QA y Herramientas: Adaptación ágil a la migración de herramientas de TestRail a QMetry como estándar de gestión de pruebas; diseñé tableros personalizados y filtros utilizando JQL (Jira Query Language) para monitorear métricas de calidad e impedimentos en tiempo real.",
+      "Live Operations y Análisis de Causa Raíz: Gestioné estrategias de mitigación y resolución de defectos de alto impacto para títulos AAA bajo presión de despliegues en vivo, realizando extensos análisis de causa raíz (RCA) e investigaciones técnicas en QMetry para identificar defectos de producción.",
+      "Triage Técnico y Clasificación de Defectos: Participé activamente en el proceso de Triage en JIRA, enfocándome en la creación, filtrado e inicio de aislamiento de bugs para optimizar la toma de decisiones por parte de Leads y Productores, además de apoyar la orquestación técnica de entornos de playtesting y despliegues de red local."
     ],
     "tech": [
       "JIRA",
-      "ISTQB",
-      "Playwright",
-      "SCRUM"
+      "QMetry",
+      "TestRail",
+      "JQL",
+      "ISTQB Candidate",
+      "Confluence",
+      "Scrum",
+      "DevKits"
     ]
   },
   {
     "company": "LaLicorera.com",
-    "role": "Desarrollador Web",
+    "role": "Web Developer",
     "start": "Ago 2022",
     "end": "Ago 2023",
     "duties": [
-      "Desarrollo Backend y Diseño de APIs: Desarrollé y validé endpoints RESTful utilizando PHP (Laravel) para asegurar una comunicación eficiente entre el frontend y el backend.",
-      "Pruebas Unitarias: Realicé pruebas unitarias para endpoints de API, verificando la integridad de los datos, esquemas de respuesta y tiempos de ejecución para garantizar la estabilidad del sistema.",
-      "Documentación de APIs: Documenté y probé endpoints en Postman, centralizando la información técnica y facilitando el seguimiento del progreso del proyecto.",
-      "Herramientas Internas e UI/UX: Ajusté el diseño y la funcionalidad tanto de la plataforma principal de comercio electrónico como de las herramientas internas, aplicando principios de UI/UX para optimizar las operaciones del negocio.",
-      "Transición de Stack Tecnológico: Demostré flexibilidad técnica al realizar con éxito la transición de React a Vue.js y PHP, manteniendo el ritmo de entrega del equipo."
+      "Desarrollo y Verificación de APIs en Backend: Participé en la implementación y validación de extremo a extremo de endpoints RESTful utilizando PHP (Laravel), construyendo capas desacopladas bajo principios de Clean Architecture (DDD) y ejecutando pruebas unitarias para verificar esquemas de datos e integridad de respuestas.",
+      "Documentación e Integración de APIs: Centralicé la información técnica y monitoreé la cobertura de pruebas utilizando Postman para diseñar y ejecutar pruebas de integración funcional, adaptándome ágilmente al stack técnico y transicionando hacia el ecosistema de Vue.js.",
+      "Herramientas Internas y UI/UX: Ajusté el diseño y la funcionalidad tanto de la plataforma principal de comercio electrónico como de las herramientas administrativas internas, aplicando principios de UI/UX para optimizar las operaciones del negocio y minimizar la fricción del usuario."
     ],
     "tech": [
-      "VueJS",
-      "Javascript",
+      "PHP",
       "Laravel",
-      "PHP"
+      "VueJS",
+      "JavaScript",
+      "Postman",
+      "REST APIs",
+      "Clean Architecture",
+      "SQL"
+    ]
+  },
+  {
+    "company": "Iniciativas Técnicas y Proyectos de Ingeniería de IA (Independiente)",
+    "role": "QA Automation & AI Engineer",
+    "start": "2026",
+    "end": "Actualmente",
+    "duties": [
+      "Arquitectura de Automatización de Pruebas E2E: Diseño e implementación de suites de automatización escalables utilizando Playwright con TypeScript bajo el patrón Page Object Model (POM), estructurando además flujos de validación de endpoints REST y payloads con Postman.",
+      "Entorno de LLM Local y Personalización de Modelfiles: Configuración y despliegue de entornos locales de IA mediante Ollama y OpenCode, personalizando comportamiento de modelos, ventanas de contexto y parámetros deterministas a través de Modelfiles para entornos de testing seguros y offline.",
+      "Operaciones de QA Asistidas por IA y Workflows: Aplicación de Agent Skills, protocolos MCP (Model Context Protocol) y marcos de Prompt Engineering estructurados (RTF / CREATE) para la generación automatizada de casos de prueba de borde, mocks/payloads JSON sintéticos y asistencia en revisión de código."
+    ],
+    "tech": [
+      "Playwright",
+      "TypeScript",
+      "Ollama",
+      "OpenCode",
+      "MCP",
+      "n8n",
+      "Prompt Engineering (RTF/CREATE)",
+      "Page Object Model (POM)"
     ]
   },
   {
