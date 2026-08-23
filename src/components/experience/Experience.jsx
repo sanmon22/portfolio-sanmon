@@ -1,4 +1,3 @@
-import React from 'react'
 import './Experience.css'
 import experiences from '../../utils/experiences.json'
 import { motion } from "framer-motion";

@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Contact.css'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { Toaster, toast } from 'sonner';
+import { toast } from 'sonner';
 
 const Contact = () => {
 
@@ -25,7 +25,6 @@ const Contact = () => {
 
   return (
     <section id='contact' className='paddings innerWidth c-wrapper'>
-      <Toaster />
       <h5 className='title'>Ponte en contacto</h5>
       <article className="flexCenter innerWidth c-content">
         <section className='c-form'>
@@ -74,10 +73,10 @@ const Contact = () => {
           Si conoces una oportunidad, deseas enviar algún consejo, alguna pregunta, ¡o simplemente quieres saludar!, ¡mi bandeja de entrada siempre está abierta y lista para recibirte! 📬
           </p>
           <div className="flexCenter c-icons">
-            <a href="https://www.linkedin.com/in/sanmon12/" target="_blank">
+            <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin title="LinkedIn" size={30} />
             </a>
-            <a href="https://github.com/sanmon22" target="_blank">
+            <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer">
               <FaGithub title="Github" size={30} />
             </a>
           </div>

@@ -1,3 +1,4 @@
+import { Toaster } from 'sonner'
 import Greeting from "./components/greeting/Greeting"
 import Navbar from "./components/navbar/Navbar"
 import './App.css'
@@ -9,6 +10,7 @@ import Contact from "./components/contact/Contact"
 const App = () => {
   return (
     <>
+      <Toaster position="bottom-right" richColors />
       <section className="innerWidth app">
         <Navbar />
         <Greeting />

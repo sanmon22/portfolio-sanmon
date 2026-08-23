@@ -1,4 +1,3 @@
-import React from 'react'
 import "./TimelineItem.css"
 
 const TimelineItem = ({ data }) => (

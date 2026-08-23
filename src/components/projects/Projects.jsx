@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Projects.css"
 import projects from '../../utils/projects.json'
 import Chips from '../chips/Chips'
@@ -10,32 +9,32 @@ const Projects = () => {
       <h5 className='title'>Proyectos</h5>
       <article className='innerWidth paddings p-container'>
         {
-          projects.length >= 2
+          projects.length > 0
             ? projects.map((p, index) => {
               return (
                 <article className='innerWidth p-details' key={index}>
                   <section className='p-features'>
                     <h6>
-                      <a href={p.link} target='blank'>
+                      <a href={p.link} target='_blank' rel='noopener noreferrer'>
                         {p.name}
                         <FaExternalLinkAlt title='Github' size={20} />
                       </a>
                     </h6>
                     <ul>
                       {
-                        p.features.map((feature, index) => <li key={index}>{feature}</li>)
+                        p.features.map((feature, idx) => <li key={idx}>{feature}</li>)
                       }
                     </ul>
                     <div className="flexCenter p-chips">
                       {
-                        p.tech.map((t, index) => <Chips key={index} text={t} />)
+                        p.tech.map((t, idx) => <Chips key={idx} text={t} />)
                       }
                     </div>
                   </section>
                   <aside className='flexCenter innerWidth p-image'>
                     {
                       p.img.includes('http')
-                      && <img src={p.img} height={200} alt="" />
+                      && <img src={p.img} height={200} alt={p.name} />
                     }
                   </aside>
                 </article>

@@ -1,5 +1,3 @@
-import React from "react";
-import { slides } from "../../utils/slides-images";
 import {
   FaLinkedin,
   FaGithub,
@@ -8,8 +6,7 @@ import {
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 import "./About.css";
-import Carousel from "../carousel/Carousel";
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 
 const About = () => {
 
@@ -21,7 +18,6 @@ const About = () => {
 
   return (
     <section id="about" className="flexCenter paddings innerWidth a-wrapper">
-      <Toaster />
       <motion.article
         variants={{
           hidden: { opacity: 0, x: -75 },
@@ -46,13 +42,13 @@ const About = () => {
           calidad viene de un equipo que aprende y se adapta juntos
         </p>
         <div className="flexStart a-social">
-          <a href="https://www.linkedin.com/in/sanmon12/" target="_blank">
+          <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin title="LinkedIn" size={30} />
           </a>
-          <a href="https://github.com/sanmon22" target="_blank">
+          <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank">
+          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer">
             <button className="btn-cv">
               CV
               <FaDownload />
@@ -65,7 +61,7 @@ const About = () => {
         </div>
       </motion.article>
       <article className="flexColCenter innerWidth a-images">
-        {/* <Carousel slides={slides}/> */}
+        {/* Carousel placeholder */}
       </article>
     </section>
   );

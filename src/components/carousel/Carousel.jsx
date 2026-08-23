@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Carousel.css";
 
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-const Carousel = ({ slides }) => {
+const Carousel = ({ slides = [] }) => {
   const [currentSlide, setcurrentSlide] = useState(0);
 
   const nextSlide = () => {

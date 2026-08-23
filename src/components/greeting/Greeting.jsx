@@ -1,6 +1,4 @@
-import React from "react";
 import "./Greeting.css";
-import { FaAngleDown } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
@@ -30,7 +28,7 @@ const Greeting = () => {
             }}
             className="g-image"
             src="./personal-col.png"
-            alt="photo personal"
+            alt="Santiago Monrroy - Profile"
           />
         </aside>
       </article>
