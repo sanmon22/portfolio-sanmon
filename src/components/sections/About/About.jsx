@@ -37,10 +37,6 @@ const About = () => {
             de retroalimentación cualitativa
           </strong> para cerrar la brecha entre el diseño y la ingeniería, bajo la convicción de que la mejor calidad proviene de un equipo que aprende y se adapta junto
         </p>
-        <p>
-          Estoy convencido de que la mejor
-          calidad viene de un equipo que aprende y se adapta juntos
-        </p>
         <div className="flexStart a-social">
           <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Santiago">
             <FaLinkedin title="LinkedIn" size={30} />
