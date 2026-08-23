@@ -1,63 +1,110 @@
 .a-wrapper {
   color: var(--primary);
-  padding: 7rem 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .a-container {
   position: relative;
-  gap: 2rem;
+  gap: 1.75rem;
   flex: 6;
+  max-width: 800px;
+}
+
+.a-container p {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  color: var(--primary);
+}
+
+.a-container .title {
+  position: relative;
 }
 
 .a-container .title::after {
   content: "";
   display: block;
   position: absolute;
-  top: -150px;
-  left: -150px;
+  top: -120px;
+  left: -120px;
   z-index: -1;
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   background-image: url('/blob3.png');
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.5;
+  pointer-events: none;
 }
-
 
 .a-social {
-  gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
 }
 
-.a-social svg:hover {
-  color: #3C2A21;
+.a-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.a-social a:hover {
+  transform: translateY(-2px);
+  color: var(--accent);
 }
 
 .a-social .btn-cv {
   background-color: var(--primary);
   color: var(--secondary);
-  display: flex;
-  gap: .5rem;
-  font-weight: bolder;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
   border: none;
-  font-size: medium;
-  border-radius: 30px;
-  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: var(--radius-pill);
+  padding: 0.65rem 1.75rem;
   cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.a-social .btn-cv:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
 .a-mail {
+  display: flex;
+  align-items: center;
   gap: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.a-mail > svg {
+.a-mail button {
   cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.a-mail > svg:hover {
-  color: #3C2A21;
+.a-mail button:hover {
+  transform: scale(1.15);
+  color: var(--accent);
 }
 
 .a-images {
   flex: 4;
+}
+
+@media (max-width: 768px) {
+  .a-container .title::after {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 280px;
+  }
 }
 

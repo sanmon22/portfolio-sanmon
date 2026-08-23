@@ -3,7 +3,7 @@
   justify-content: flex-end;
   padding-right: 30px;
   position: relative;
-  margin: 10px 0;
+  margin: 14px 0;
   width: 50%;
 }
 
@@ -15,24 +15,25 @@
 }
 
 .timeline-item-content {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-sm);
   background-color: var(--primary);
   color: #E5E5CB;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 15px;
+  padding: 16px 20px;
   position: relative;
   width: 400px;
   max-width: 100%;
   text-align: right;
-  transition: transform 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   z-index: 1;
 }
 
-.timeline-item-content:not(.circle):hover {
-  transform: scale(1.05);
+.timeline-item-content:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .timeline-item-content::after {
@@ -59,30 +60,36 @@
 }
 
 .timeline-item-content time {
-  color: #777;
-  font-size: 12px;
-  font-weight: bold;
+  color: var(--secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }
 
 .timeline-item-content p {
-  font-size: 14px;
-  line-height: 20px;
-  margin: 12px 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 8px 0;
   max-width: none;
-
-  @media (max-width: 767px) {
-    font-size: 12px;
-  }
 }
 
 .timeline-item-content a {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.timeline-item-content a:hover {
+  color: #ffffff;
 }
 
 .timeline-item-content a::after {
   content: ' ►';
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .timeline-item-content .circle {
@@ -109,16 +116,15 @@
 }
 
 @media only screen and (max-width: 767px) {
-
   .timeline-item-content,
   .timeline-item:nth-child(odd) .timeline-item-content {
-    padding: 15px 10px;
+    padding: 14px 12px;
     text-align: center;
     align-items: center;
   }
 
   .timeline-item-content time {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .timeline-item-content a {

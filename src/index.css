@@ -1,12 +1,18 @@
 :root {
   --primary: #1A120B;
   --secondary: #D5CEA3;
+  --bg: #E5E5CB;
+  --accent: #3C2A21;
+  --text-muted: #5c574e;
   --black: #000;
   --blue-gradient: linear-gradient(97.05deg, #3C2A21 3.76%, #1A120B 100%);
   --orange-gradient: linear-gradient(270deg, #E5E5CB 0%, #D5CEA3 100%);
-  --blue: #4066ff;
-  --lightBlue: #eeeeff;
   --shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  --shadow-sm: 0 4px 12px rgba(26, 18, 11, 0.08);
+  --shadow-md: 0 8px 24px rgba(26, 18, 11, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-pill: 100px;
 }
 
 * {
@@ -18,13 +24,22 @@
 }
 
 body {
-  background: #E5E5CB;
+  background: var(--bg);
+  color: var(--primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
 .paddings {
   padding: 1.5rem;
 }
@@ -40,6 +55,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .flexStart {
   display: flex;
   justify-content: flex-start;
@@ -58,12 +74,14 @@ a {
   align-items: center;
   flex-direction: column;
 }
+
 .flexColStart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
+
 .flexColEnd {
   display: flex;
   flex-direction: column;
@@ -78,9 +96,10 @@ a {
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
+
 .orangeText {
   color: orange;
   font-size: 1.5rem;
@@ -89,62 +108,43 @@ a {
 
 .primaryButton {
   background: var(--primary);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   color: white;
   font-weight: 600;
   border: none;
-  border-radius: 10px;
-  transition: all 300ms ease-in;
+  border-radius: var(--radius-sm);
+  transition: all 250ms ease-in-out;
 }
 
 .secondaryButton {
   background: var(--secondary);
-  padding: .5rem 1rem;
-  color: white;
+  padding: 0.5rem 1rem;
+  color: var(--primary);
   font-weight: 600;
   border: none;
-  border-radius: 10px;
-  transition: all 300ms ease-in;
+  border-radius: var(--radius-sm);
+  transition: all 250ms ease-in-out;
 }
 
-.primaryButton:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
+.primaryButton:hover,
 .secondaryButton:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Sulphur Point', sans-serif;
+  color: var(--primary);
 }
 
-h1 {
-  font-size: 7.5rem;
-}
-
-h2 {
-  font-size: 7rem;
-}
-
-h3 {
-  font-size: 6.5rem;
-}
-
-h4 {
-  font-size: 6rem;
-}
-
-h5 {
-  font-size: 5.5rem;
-}
-
-h6 {
-  font-size: 3rem;
-}
-
+/* Fluid Typography Scale */
+h1 { font-size: clamp(3rem, 7vw, 6.5rem); line-height: 1.1; }
+h2 { font-size: clamp(2.5rem, 6vw, 5.5rem); line-height: 1.1; }
+h3 { font-size: clamp(2.2rem, 5vw, 4.5rem); line-height: 1.15; }
+h4 { font-size: clamp(1.8rem, 4vw, 3.5rem); line-height: 1.2; }
+h5 { font-size: clamp(2.2rem, 4.5vw, 4.5rem); line-height: 1.2; }
+h6 { font-size: clamp(1.3rem, 2.5vw, 2.2rem); line-height: 1.3; }
 
 @media (min-width: 1536px) {
   .innerWidth {
@@ -153,46 +153,20 @@ h6 {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1024px) {
   .paddings {
-    padding: 4rem;
+    padding: 3rem 4rem;
   }
 }
 
-@media (min-width: 1280px), (min-width: 768px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .paddings {
-    padding: 2rem;
+    padding: 2.5rem;
   }
 }
 
-@media (max-width: 640px) {
-  .primaryText {
-    font-size: 1.5rem;
-  }
-  .orangeText {
-    font-size: 1.2rem;
-  }
-  h1 {
-    font-size: 6rem;
-  }
-  
-  h2 {
-    font-size: 5rem;
-  }
-  
-  h3 {
-    font-size: 4rem;
-  }
-  
-  h4 {
-    font-size: 3.5rem;
-  }
-  
-  h5 {
-    font-size: 2.5rem;
-  }
-  
-  h6 {
-    font-size: 2rem;
+@media (max-width: 639px) {
+  .paddings {
+    padding: 1.25rem;
   }
 }

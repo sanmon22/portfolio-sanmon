@@ -1,44 +1,57 @@
 .g-wrapper {
-  max-width: 1000px;
+  max-width: 1100px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .g-head {
   color: var(--primary);
 }
 
-.g-head  .icon {
+.g-head .icon {
   margin-top: 2rem;
   cursor: pointer;
-  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease;
 }
 
 .g-head .icon > *:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .g-titles {
   position: relative;
+  gap: 2rem;
+  align-items: center;
 }
 
 .g-titles h6 {
   position: relative;
-  font-size: 32px;
+  font-size: clamp(1.25rem, 2.5vw, 1.85rem);
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: var(--text-muted);
 }
 
 .g-titles > div {
   flex: 7;
+  min-width: 280px;
 }
 
 .g-titles .title {
   font-family: 'Sulphur Point', sans-serif;
-  font-weight: bolder;
-  font-size: 7.5rem;
+  font-weight: 800;
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  line-height: 1.05;
+  display: block;
 }
 
 .g-image {
   width: 320px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
   mask-image: linear-gradient(
-    black 95%,
+    black 90%,
     transparent
   );
 }
@@ -47,23 +60,29 @@
   content: "";
   display: block;
   position: absolute;
-  top: -150px;
-  left: -150px;
+  top: -120px;
+  left: -120px;
   z-index: -1;
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   background-image: url('/blob.png');
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
-  .g-titles .title {
-    font-size: 4.5rem;
+  .g-titles {
+    flex-direction: column-reverse;
+    text-align: center;
   }
-  
-  .g-image > img {
-    width: 320px;
+
+  .g-titles .title::before {
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 280px;
   }
 }
 

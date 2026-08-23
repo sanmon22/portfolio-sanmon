@@ -1,10 +1,23 @@
 .chip-container {
   background: var(--primary);
-  padding: 1rem 1.5rem;
-  border-radius: 80px;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
 }
 
-.chip-container > span {
+.chip-container:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.chip-container > span,
+.chip-text {
   color: var(--secondary);
   font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
 }
