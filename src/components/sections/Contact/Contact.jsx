@@ -29,13 +29,15 @@ const Contact = () => {
       <article className="flexCenter innerWidth c-content">
         <section className='c-form'>
           <form onSubmit={handleSubmit}>
-            <label className='flexColStart' htmlFor="name">
+            <label className='flexColStart' htmlFor="fullName">
               ¿Cómo es tu nombre? *
               <input
+                id="fullName"
                 required
                 placeholder='Elon Musk'
-                autoComplete="off"
-                type="text" name='fullName'
+                autoComplete="name"
+                type="text"
+                name='fullName'
                 value={formData.fullName}
                 onChange={handleChange}
               />
@@ -43,18 +45,22 @@ const Contact = () => {
             <label className='flexColStart' htmlFor="email">
               ¿Cuál es tu correo? *
               <input
+                id="email"
                 required
                 placeholder='elon.musk@tesla.com'
-                autoComplete="off"
-                type="email" name='email'
+                autoComplete="email"
+                type="email"
+                name='email'
                 value={formData.email}
                 onChange={handleChange}
               />
             </label>
-            <label className='flexColStart' htmlFor="details">
+            <label className='flexColStart' htmlFor="message">
               Deja tu mensaje
               <textarea
-                rows={10} maxLength={150}
+                id="message"
+                rows={10}
+                maxLength={150}
                 placeholder='Manda un saludo :P'
                 name="message"
                 value={formData.message}
@@ -73,10 +79,10 @@ const Contact = () => {
           Si conoces una oportunidad, deseas enviar algún consejo, alguna pregunta, ¡o simplemente quieres saludar!, ¡mi bandeja de entrada siempre está abierta y lista para recibirte! 📬
           </p>
           <div className="flexCenter c-icons">
-            <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Santiago">
               <FaLinkedin title="LinkedIn" size={30} />
             </a>
-            <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Santiago">
               <FaGithub title="Github" size={30} />
             </a>
           </div>

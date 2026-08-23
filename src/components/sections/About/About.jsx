@@ -42,14 +42,14 @@ const About = () => {
           calidad viene de un equipo que aprende y se adapta juntos
         </p>
         <div className="flexStart a-social">
-          <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Santiago">
             <FaLinkedin title="LinkedIn" size={30} />
           </a>
-          <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Santiago">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="btn-cv">
+          <a href="/cv_en_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
+            <button className="btn-cv" aria-label="Descargar CV">
               CV
               <FaDownload />
             </button>
@@ -57,7 +57,9 @@ const About = () => {
         </div>
         <div className="flexStart a-mail">
           <span>santilopez397@gmail.com</span>
-          <FaCopy title="Copiar" onClick={copyText} />
+          <button onClick={copyText} aria-label="Copiar correo electrónico" style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'inherit', display: 'inline-flex', alignItems: 'center', padding: 0 }}>
+            <FaCopy title="Copiar" />
+          </button>
         </div>
       </motion.article>
       <article className="flexColCenter innerWidth a-images">

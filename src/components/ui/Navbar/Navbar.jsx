@@ -26,17 +26,26 @@ const Navbar = () => {
         <IoIosClose
             className="icon"
             size={30}
+            aria-label="Cerrar menú"
+            role="button"
+            tabIndex={0}
             onClick={() => setIsOpen(false)}
+            onKeyDown={(e) => e.key === 'Enter' && setIsOpen(false)}
           />
         :
         <BiMenuAltRight
           className="icon"
           size={30}
+          aria-label="Abrir menú"
+          role="button"
+          tabIndex={0}
           onClick={() => setIsOpen(true)}
+          onKeyDown={(e) => e.key === 'Enter' && setIsOpen(true)}
         />
       }
       <nav
         className='paddings n-container'
+        aria-label="Navegación principal"
       >
         <ul className={`n-list ${isOpen && "mobile"}`}>
           <li onClick={() => setIsOpen(!isOpen)}><a href="#about">Sobre mí</a></li>
@@ -44,9 +53,9 @@ const Navbar = () => {
           <li onClick={() => setIsOpen(!isOpen)}><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-      <a onClick={menuClick}>
+      <button className="up-btn-container" onClick={menuClick} aria-label="Volver arriba" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
         <FaCircleArrowUp className="up-btn" size={30} />
-      </a>
+      </button>
     </section>
   );
 };
