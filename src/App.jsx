@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar"
 import './App.css'
 import About from "./components/about/About"
 import Experience from "./components/experience/Experience"
-import Projects from "./components/projects/Projects"
+// import Projects from "./components/projects/Projects"
 import Contact from "./components/contact/Contact"
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
         <Greeting />
         <About />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </section>
     </>
