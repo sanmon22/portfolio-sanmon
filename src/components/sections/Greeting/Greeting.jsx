@@ -17,9 +17,9 @@ const Greeting = () => {
             />
             <h2>Santiago</h2>
             <h6>
-              Analista de calidad y
+              Ingeniero de software y
               <br />
-              desarrollador
+              especialista en calidad
             </h6>
           </div>
           <motion.img

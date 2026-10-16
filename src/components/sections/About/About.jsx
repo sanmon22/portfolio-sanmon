@@ -39,7 +39,7 @@ const About = () => {
           <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Santiago">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/cv_es_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
+          <a href="/software_cv_es_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
             <button className="btn-cv" aria-label="Descargar CV">
               CV
               <FaDownload />
