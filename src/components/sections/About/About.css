@@ -29,7 +29,7 @@
   z-index: -1;
   width: 380px;
   height: 380px;
-  background-image: url('/blob3.png');
+  background-image: url('/blob3.webp');
   background-size: cover;
   opacity: 0.5;
   pointer-events: none;
@@ -71,6 +71,7 @@
 }
 
 .a-social .btn-cv:hover {
+  color: var(--secondary);
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }

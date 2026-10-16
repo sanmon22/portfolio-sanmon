@@ -15,12 +15,14 @@ const Greeting = () => {
               cursor={false}
               repeat={Infinity}
             />
-            <h2>Santiago</h2>
-            <h6>
+            <h1 className="g-name">
+              Santiago<span className="sr-only"> Monrroy López</span>
+            </h1>
+            <p className="g-subtitle">
               Ingeniero de software y
               <br />
               especialista en calidad
-            </h6>
+            </p>
           </div>
           <motion.img
             initial={{ opacity: 0 }}
@@ -31,9 +33,12 @@ const Greeting = () => {
               x: { duration: 1 },
             }}
             className="g-image"
-            src="./personal-col.png"
+            src="/personal-col.webp"
             alt="Santiago Monrroy López - Ingeniero de Software y Especialista QA"
+            width={433}
+            height={577}
             fetchPriority="high"
+            decoding="async"
           />
         </aside>
       </article>

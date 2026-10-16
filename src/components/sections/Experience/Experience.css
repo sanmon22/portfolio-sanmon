@@ -28,7 +28,7 @@
   z-index: -1;
   width: 380px;
   height: 380px;
-  background-image: url('/blob2.png');
+  background-image: url('/blob2.webp');
   background-size: cover;
   opacity: 0.5;
   pointer-events: none;
@@ -44,7 +44,7 @@
   margin: 1rem 0;
 }
 
-.e-subtitle h6 {
+.e-subtitle h3 {
   font-weight: 800;
   color: var(--primary);
   font-size: clamp(1.4rem, 2.5vw, 1.85rem);

@@ -25,7 +25,7 @@ const Contact = () => {
 
   return (
     <section id='contact' className='paddings innerWidth c-wrapper'>
-      <h5 className='title'>Ponte en contacto</h5>
+      <h2 className='title'>Ponte en contacto</h2>
       <article className="flexCenter innerWidth c-content">
         <section className='c-form'>
           <form onSubmit={handleSubmit}>

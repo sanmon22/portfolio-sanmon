@@ -28,7 +28,7 @@ const About = () => {
         transition={{ duration: 0.5, delay: 0.25 }}
         className="flexColStart a-container"
       >
-        <h5 className="title">Sobre mí</h5>
+        <h2 className="title">Sobre mí</h2>
         <p>
           <strong>Ingeniero de Software y Especialista en Calidad Técnica (QA)</strong> con más de <strong>3 años</strong> de experiencia a lo largo del ciclo de vida del desarrollo de software (SDLC), especializado en el desarrollo de <strong>APIs backend, Clean Architecture (DDD) y flujos de ingeniería asistidos por IA</strong>. Combino experiencia práctica en <strong>PHP (Laravel), Java (Spring Boot/Hibernate), TypeScript, Node.js, Vue.js/React y bases de datos SQL</strong> con una mentalidad enfocada en <strong>pruebas unitarias (TDD), automatización E2E, análisis de causa raíz y confiabilidad en producción</strong>. Apasionado por la <strong>mentoría técnica, la coordinación de equipos y la entrega continua</strong> bajo la convicción de que el mejor software proviene de un equipo que aprende y se adapta junto.
         </p>
@@ -39,11 +39,9 @@ const About = () => {
           <a href="https://github.com/sanmon22" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Santiago">
             <FaGithub title="Github" size={30} />
           </a>
-          <a href="/software_cv_es_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" aria-label="Descargar currículum vítae de Santiago">
-            <button className="btn-cv" aria-label="Descargar CV">
-              CV
-              <FaDownload />
-            </button>
+          <a href="/software_cv_es_santiago_monrroy_lopez.pdf" target="_blank" rel="noopener noreferrer" className="btn-cv" aria-label="Descargar currículum vítae de Santiago">
+            CV
+            <FaDownload aria-hidden="true" />
           </a>
         </div>
         <div className="flexStart a-mail">

@@ -16,14 +16,14 @@ const Experience = () => {
         transition={{ duration: 0.5, delay: 0.75 }}
         className="flexColStart e-container"
       >
-        <h5 className="title">Experiencia</h5>
+        <h2 className="title">Experiencia</h2>
         <div className="e-list">
           {
             experiences.map((exp) => {
               return (
                 <article key={exp.company} className='flexColStart innerWidth e-content'>
                   <div className="flexColStart e-subtitle">
-                    <h6>{exp.company}</h6>
+                    <h3>{exp.company}</h3>
                     <span>{exp.role}</span>
                     <span>{exp.start} - {exp.end}</span>
                   </div>
