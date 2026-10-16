@@ -32,7 +32,8 @@ const Greeting = () => {
             }}
             className="g-image"
             src="./personal-col.png"
-            alt="Santiago Monrroy - Profile"
+            alt="Santiago Monrroy López - Ingeniero de Software y Especialista QA"
+            fetchPriority="high"
           />
         </aside>
       </article>
