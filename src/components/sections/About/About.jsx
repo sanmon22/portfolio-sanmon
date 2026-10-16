@@ -30,12 +30,12 @@ const About = () => {
       >
         <h5 className="title">Sobre mí</h5>
         <p>
-          Analista QA Técnico con más de <strong>3 años</strong> de experiencia y mentalidad de desarrollador. Me especializo en
-          estrategias de calidad integrales a lo largo de todo el ciclo de vida del desarrollo de software, con enfoque en soporte
-          técnico y optimización de procesos. Apasionado por la <strong>
-            mentoría de equipos, el intercambio de conocimientos y la entrega
+          Analista QA Técnico con más de <strong>3 años</strong> de experiencia y sólida formación en desarrollo de software. Me especializo en
+          estrategias de calidad integrales a lo largo de todo el ciclo de vida del desarrollo de software (SDLC), combinando ejecución en fases de estabilización y release, pruebas de regresión, soporte
+          técnico y reportes de métricas con <strong>validación profunda en backend (APIs REST, bases de datos SQL y Clean Architecture)</strong>. Apasionado por la <strong>
+            mentoría de equipos, la estandarización de documentación técnica y la entrega
             de retroalimentación cualitativa
-          </strong> para cerrar la brecha entre el diseño y la ingeniería, bajo la convicción de que la mejor calidad proviene de un equipo que aprende y se adapta junto
+          </strong> para cerrar la brecha entre el diseño, el producto y la ingeniería, bajo la convicción de que la mejor calidad proviene de un equipo que aprende y se adapta junto.
         </p>
         <div className="flexStart a-social">
           <a href="https://www.linkedin.com/in/sanmon12/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn de Santiago">
