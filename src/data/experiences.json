@@ -1,45 +1,49 @@
 [
   {
-    "company": "Iniciativas Técnicas y Proyectos de Ingeniería de IA (Independiente)",
-    "role": "QA Automation & AI Engineer",
-    "start": "2026",
-    "end": "Actualmente",
-    "duties": [
-      "Arquitectura de Automatización de Pruebas E2E: Diseño e implementación de suites de automatización escalables utilizando Playwright con TypeScript bajo el patrón Page Object Model (POM), estructurando además flujos de validación de endpoints REST y payloads con Postman.",
-      "Entorno de LLM Local y Personalización de Modelfiles: Configuración y despliegue de entornos locales de IA mediante Ollama y OpenCode, personalizando comportamiento de modelos, ventanas de contexto y parámetros deterministas a través de Modelfiles para entornos de testing seguros y offline.",
-      "Operaciones de QA Asistidas por IA y Workflows: Aplicación de Agent Skills, protocolos MCP (Model Context Protocol) y marcos de Prompt Engineering estructurados (RTF / CREATE) para la generación automatizada de casos de prueba de borde, mocks/payloads JSON sintéticos y asistencia en revisión de código."
-    ],
-    "tech": [
-      "Playwright",
-      "TypeScript",
-      "Ollama",
-      "OpenCode",
-      "MCP",
-      "n8n",
-      "Prompt Engineering (RTF/CREATE)",
-      "Page Object Model (POM)"
-    ]
-  },
-  {
     "company": "Electronic Arts",
     "role": "Quality Analyst",
     "start": "Nov 2024",
     "end": "Mayo 2026",
     "duties": [
-      "Optimización de Procesos e Impacto en Onboarding: Participé activamente en la creación de una base de conocimientos centralizada, documentación técnica y videotutoriales que apoyaron directamente la reducción de los ciclos de inducción y capacitación del equipo de 3 meses a solo 2 semanas, actuando como punto de contacto técnico.",
-      "Reportes de QA y Herramientas: Adaptación ágil a la migración de herramientas de TestRail a QMetry como estándar de gestión de pruebas; diseñé tableros personalizados y filtros utilizando JQL (Jira Query Language) para monitorear métricas de calidad e impedimentos en tiempo real.",
-      "Live Operations y Análisis de Causa Raíz: Gestioné estrategias de mitigación y resolución de defectos de alto impacto para títulos AAA bajo presión de despliegues en vivo, realizando extensos análisis de causa raíz (RCA) e investigaciones técnicas en QMetry para identificar defectos de producción.",
-      "Triage Técnico y Clasificación de Defectos: Participé activamente en el proceso de Triage en JIRA, enfocándome en la creación, filtrado e inicio de aislamiento de bugs para optimizar la toma de decisiones por parte de Leads y Productores, además de apoyar la orquestación técnica de entornos de playtesting y despliegues de red local."
+      "Pruebas de Rendimiento, Regresión y Fases de Release (CI/CD & Live Ops): Participé en la ejecución y monitoreo de pruebas de rendimiento, estrés y estabilidad en entornos de despliegue continuo, enfocándome en las fases de estabilización (regresión) y release final. Ejecuté pruebas de compatibilidad multiplataforma (Cross-Platform Compatibility) en todas las consolas del mercado y colaboré en sesiones de playtesting masivo en Staging aplicando Risk-Based Testing para validar flujos transaccionales de tienda, compra y visualización de skins, consistencia de saldos en microtransacciones y prevención de crashes bajo alta concurrencia, certificando cada despliegue mediante suites de regresión y pruebas de humo.",
+      "Optimización de Procesos, Coordinación de Equipos y Onboarding: Lideré y participé en la creación de una base de conocimientos centralizada, documentación técnica y videotutoriales que apoyaron directamente la reducción de los ciclos de inducción y capacitación del equipo de 3 meses a solo 2 semanas. Coordiné la asignación y priorización de suites de prueba según el perfil y las fortalezas de cada integrante del equipo, promoviendo estándares rigurosos en la especificación de casos de prueba y actuando como punto de contacto técnico.",
+      "Reportes de QA y Herramientas: Me adapté de manera ágil a la evolución de herramientas del negocio desde TestRail hacia QMetry como estándar de gestión de pruebas. Diseñé tableros de control personalizados y filtros avanzados utilizando JQL (Jira Query Language) para monitorear métricas de calidad, el progreso de la ejecución de pruebas e impedimentos del equipo en tiempo real.",
+      "Live Operations y Análisis de Causa Raíz: Gestioné estrategias de mitigación y resolución de defectos de alto impacto para títulos AAA bajo la presión de despliegues en vivo. Realicé extensos Análisis de Causa Raíz (RCA) e investigaciones técnicas directamente en QMetry y Jira para identificar defectos críticos de producción antes de los lanzamientos oficiales.",
+      "Orquestación de Servidores, DevKits y Triage Técnico: Configuré y aprovisioné servidores dedicados de prueba (ajustando configuraciones específicas y puertos de red) para habilitar la conexión simultánea de los compañeros de equipo en pruebas multijugador, además de configurar el software propietario de DevKits para cada plataforma y explorar flujos de automatización operativa (tipo n8n). Participé activamente en el proceso de Triage en Jira, aislando y clasificando bugs para agilizar la toma de decisiones de Leads y Productores."
     ],
     "tech": [
-      "JIRA",
+      "JIRA (JQL)",
       "QMetry",
       "TestRail",
-      "JQL",
-      "ISTQB Candidate",
       "Confluence",
-      "Scrum",
-      "DevKits"
+      "Cross-Platform Testing",
+      "DevKits & Servidores de Prueba",
+      "Pruebas de Regresión y Humo",
+      "Risk-Based Testing",
+      "Root Cause Analysis (RCA)",
+      "Live Operations",
+      "Scrum / Kanban",
+      "n8n"
+    ]
+  },
+  {
+    "company": "Teleperformance (Expedia Account)",
+    "role": "Technical Support Analyst",
+    "start": "Mar 2024",
+    "end": "Oct 2024",
+    "duties": [
+      "Troubleshooting y Resolución Técnica de Incidentes: Brindé soporte técnico bilingüe (inglés/español) para sistemas PMS y CRM a nivel global bajo cumplimiento estricto de SLAs y compromisos de seguimiento, aislando fallos funcionales y de interfaz (como carga de imágenes y persistencia de textos) en flujos de reserva y portales de gestión hotelera.",
+      "Auditoría Transaccional y Conciliación: Realicé análisis, auditoría y seguimiento de pagos, reembolsos y reversiones bancarias a través de 4 a 5 plataformas internas para verificar la integridad de las transacciones y los registros contables.",
+      "Triage, Documentación y Escalamiento a Ingeniería: Estructuré evidencias detalladas de fallos completamente en inglés dentro de Salesforce (pasos de reproducción, IDs de transacción, capturas de pantalla, respuestas de servidor, códigos de error HTTP y logs de auditoría), clasificando y escalando cada ticket al equipo técnico correspondiente para evitar devoluciones y acelerar la resolución de bugs."
+    ],
+    "tech": [
+      "Salesforce",
+      "Sistemas PMS / CRM",
+      "Gestión de SLAs",
+      "Auditoría Transaccional",
+      "Triage y Escalamiento",
+      "Análisis de Logs HTTP",
+      "Soporte Técnico Bilingüe (EN/ES)"
     ]
   },
   {
@@ -48,34 +52,70 @@
     "start": "Ago 2022",
     "end": "Ago 2023",
     "duties": [
-      "Desarrollo y Verificación de APIs en Backend: Participé en la implementación y validación de extremo a extremo de endpoints RESTful utilizando PHP (Laravel), construyendo capas desacopladas bajo principios de Clean Architecture (DDD) y ejecutando pruebas unitarias para verificar esquemas de datos e integridad de respuestas.",
-      "Documentación e Integración de APIs: Centralicé la información técnica y monitoreé la cobertura de pruebas utilizando Postman para diseñar y ejecutar pruebas de integración funcional, adaptándome ágilmente al stack técnico y transicionando hacia el ecosistema de Vue.js.",
-      "Herramientas Internas y UI/UX: Ajusté el diseño y la funcionalidad tanto de la plataforma principal de comercio electrónico como de las herramientas administrativas internas, aplicando principios de UI/UX para optimizar las operaciones del negocio y minimizar la fricción del usuario."
+      "Desarrollo Backend, Clean Architecture y Pruebas Unitarias (TDD): Participé en la implementación y refactorización de extremo a extremo de endpoints RESTful usando PHP (Laravel), construyendo capas desacopladas bajo principios de Clean Architecture (DDD) (Controladores, Servicios, Repositorios, Entidades) y proponiendo el uso de DTOs. Implementé pruebas unitarias bajo enfoque TDD para validar la lógica de negocio y la correcta actualización de estado en objetos del dominio.",
+      "Validación en Bases de Datos SQL y Sistemas Administrativos: Verifiqué directamente la persistencia, integridad referencial y almacenamiento de datos utilizando MySQL Workbench y phpMyAdmin, respaldando los módulos administrativos internos de gestión de inventarios y la herramienta contable de ajuste de precios de productos.",
+      "Documentación y Pruebas de APIs en Postman: Diseñé, ejecuté y documenté de forma integral las colecciones en Postman para cada módulo desarrollado, validando contratos de datos, estructuras de payloads JSON, códigos de estado HTTP y realizando pruebas manuales de concurrencia e idempotencia ante envíos repetidos.",
+      "Refactorización Frontend en Vue.js, Rendimiento Web y Nuevas Funcionalidades: Transicioné rápidamente de mi base en React hacia el ecosistema de Vue.js (manejando gestión de estado tipo Redux/Vuex, librerías de componentes UI y hooks del ciclo de vida de componentes), refactorizando archivos monolíticos extensos (+500 líneas) en objetos y componentes modulares. Lideré la optimización de tiempos de carga del e-commerce implementando la transformación de imágenes a formato WebP, y desarrollé de principio a fin hasta su salida a producción la funcionalidad comercial de marcación láser personalizada en botellas."
     ],
     "tech": [
       "PHP",
       "Laravel",
-      "VueJS",
-      "JavaScript",
+      "Vue.js (Vuex)",
+      "Clean Architecture (DDD)",
+      "TDD / Pruebas Unitarias",
+      "DTOs",
+      "SQL (MySQL Workbench / phpMyAdmin)",
       "Postman",
-      "REST APIs",
-      "Clean Architecture",
-      "SQL"
+      "APIs RESTful",
+      "Optimización WebP",
+      "Git"
     ]
   },
   {
     "company": "Globant",
-    "role": "Pasantías",
-    "start": "Jun 2019",
-    "end": "Dic 2019",
+    "role": "Software Developer Trainee",
+    "start": "Mar 2019",
+    "end": "Sep 2019",
     "duties": [
-      "Desarrollo de aplicativo interno para administrar eventos deportivos"
+      "Desarrollo Backend con Java, Spring Boot e Hibernate (ORM): Construí y estructuré servicios backend en Java con Spring Boot para un aplicativo interno de administración de eventos deportivos, aplicando principios iniciales de Clean Architecture, configuración mediante anotaciones e integración con bases de datos relacionales MySQL a través de Hibernate (ORM). Implementé DTOs (Data Transfer Objects) personalizados para estructurar y exponer únicamente la información requerida según el tipo de usuario, manejando validaciones de datos y referencias nulas.",
+      "Desarrollo Frontend en React y Estándares Técnicos: Desarrollé componentes de interfaz de usuario utilizando React con JavaScript, integrando el consumo de servicios backend y fortaleciendo la autonomía técnica mediante la lectura intensiva de documentación oficial en inglés y el trabajo colaborativo en entornos de desarrollo empresarial."
     ],
     "tech": [
-      "ReactJS",
-      "Javascript",
       "Java",
-      "Springboot"
+      "Spring Boot",
+      "Hibernate (ORM)",
+      "MySQL",
+      "React",
+      "JavaScript",
+      "DTOs",
+      "Clean Architecture",
+      "Git"
+    ]
+  },
+  {
+    "company": "Iniciativas Técnicas y Proyectos de Ingeniería de IA (Independiente)",
+    "role": "QA Automation & AI Workflow Engineer",
+    "start": "2026",
+    "end": "Actualmente",
+    "duties": [
+      "Arquitectura de Automatización de Pruebas E2E (Playwright & TypeScript): Diseño suites de automatización escalables utilizando Playwright con TypeScript bajo el patrón Page Object Model (POM) para separar los localizadores de elementos y las acciones de página de los scripts de prueba, optimizando la mantenibilidad. Preparo flujos de prueba de APIs con Postman para validación de contratos y cargas útiles.",
+      "Entorno de LLM Local y Personalización de Modelfiles: Configuración y despliegue de entornos locales de Inteligencia Artificial mediante Ollama y OpenCode. Personalizo el comportamiento de los modelos, ventanas de contexto, asignación de recursos y ajuste de parámetros (como la optimización de temperatura para respuestas deterministas) a través de Modelfiles para soportar flujos de QA seguros y offline.",
+      "Operaciones de QA Asistidas por IA e Ingeniería de Prompts: Utilización de marcos avanzados de Prompt Engineering (RTF, CREATE) junto con Agent Skills y Model Context Protocol (MCP) para integrar LLMs locales con lectura y escritura de archivos en el espacio de trabajo, automatizando la generación de suites de prueba para casos límite, mocks/payloads JSON y revisiones de código en scripts de automatización.",
+      "Diseño de Testbed y Pruebas Unitarias: Diseño e implementación de un entorno de pruebas backend independiente desarrollado en Node.js y TypeScript bajo principios de Clean Architecture. Desarrollo de suites de pruebas unitarias con Vitest y mocks de repositorios para validar reglas de negocio y casos de uso, sentando las bases arquitectónicas para la automatización E2E con Playwright."
+    ],
+    "tech": [
+      "Playwright (POM)",
+      "TypeScript",
+      "Node.js",
+      "Vitest",
+      "Postman",
+      "Clean Architecture",
+      "Ollama",
+      "OpenCode",
+      "Model Context Protocol (MCP)",
+      "Modelfiles",
+      "Agent Skills",
+      "Prompt Engineering (RTF, CREATE)"
     ]
   }
 ]
