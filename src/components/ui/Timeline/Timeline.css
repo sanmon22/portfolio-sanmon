@@ -1,8 +1,12 @@
-.timeline-container {
+.time-line .timeline-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 100%;
+  width: 100%;
   position: relative;
-  margin: 40px 0;
+  margin: 0;
 }
 
 .timeline-container::after {

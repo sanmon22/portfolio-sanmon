@@ -2,7 +2,7 @@
   display: flex;
   row-gap: 3rem;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   flex-wrap: wrap;
   scroll-margin-top: 5rem;
 }
@@ -76,14 +76,24 @@
   margin-top: 1.25rem;
 }
 
-.time-line {
+.e-wrapper > .time-line {
   flex: 4;
   min-width: 280px;
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 6.5rem;
 }
 
 @media (max-width: 768px) {
   .e-container {
     padding-right: 0;
+  }
+
+  .e-wrapper > .time-line {
+    padding-top: 0;
   }
 
   .e-container > .title::after {
