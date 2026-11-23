@@ -23,9 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+# Agent tooling, configurations & local artifacts
 AGENTS.md
-
-# Agent tooling & runtime artifacts
+PRODUCT.md
+skills-lock.json
 .agent/
-.agents/hooks.json
+.agents/
+.impeccable/
+
 
